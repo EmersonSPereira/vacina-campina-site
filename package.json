@@ -1,7 +1,7 @@
 {
   "name": "vacina-campina-app",
   "version": "1",
-  "description": "Vue.js version of the Boxer Landing Page",
+  "description": "Site do app vacina campina",
   "keywords": [
     "vue.js",
     "vue.js router",
@@ -10,14 +10,14 @@
     "animate.css",
     "landing page"
   ],
-  "author": "codes and coffee <codesandcoffeeph@gmail.com",
+  "author": "emersonuepb@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:codesandcoffee/vuejs-landing-page.git"
+    "url": "https://github.com/EmersonSPereira/vacina-campina-deploy.git"
   },
   "config": {
-    "port": 3000
+    "port": 8080
   },
   "scripts": {
     "start": "webpack-dashboard -c magenta -t 'Vue.jsStarterTemplate' -- webpack-dev-server --config webpack/development.js --progress",
@@ -84,5 +84,5 @@
     "webpack-notifier": "^1.5.0",
     "webpack-validator": "^2.2.9"
   },
-  "homepage": "https://codesandcoffee.github.io/vuejs-landing-page/"
+  "homepage": "https://emersonspereira.github.io/vacina-campina-site/"
 }
